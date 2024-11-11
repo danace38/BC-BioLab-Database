@@ -1,0 +1,74 @@
+/* Center the login container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* Horizontally center */
+  justify-content: center; /* Vertically center */
+  height: 100vh;           /* Full viewport height */
+  background-color: #f0f0f0; /* Light background color */
+}
+
+/* Style the heading */
+h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: #333;
+}
+
+/* Style the form */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;              /* Allow form to be responsive */
+  max-width: 400px;         /* Set max width to prevent form from getting too wide */
+  padding: 50px;
+  background-color: white;
+  border-radius: 38px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+}
+
+/* Style form groups (input fields and labels) */
+.form-group {
+  margin-bottom: 20px;      /* Space between fields */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+input {
+  width: 100%;             /* Make input take up full width of form */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 5px;  /* Add some space above the button */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Style the image */
+.login-image {
+  width: 100%;            
+  max-width: 200px;        
+  height: auto;            
+  margin-bottom: 20px;     
+}
+
+
