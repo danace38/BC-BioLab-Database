@@ -15,6 +15,9 @@ function NavBar() {
           <a href="/search" className="nav-link">
             Search
           </a>
+          <a href="/search" className="nav-link">
+            Query Test
+          </a>
           <a href="/upload" className="nav-link">
             Upload
           </a>
